@@ -1,0 +1,36 @@
+:root {
+    --color1: #ffd7c7;
+    --color2: #e8ada0;
+    --color3: #d0837a;
+    --color4: #b95853;
+    --color5: #a22e2c;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: var(--color1);
+}
+
+.header {
+    background-color: var(--color4);
+    
+    > ul{
+        display: flex;
+        padding: 20px;
+        flex-direction: row;
+        justify-content: right;
+        list-style: none;
+        gap: 10px;
+    }
+}
+
+#section-main{
+    background-color: var(--color4);
+    height: 50vw;
+}
